@@ -17,3 +17,59 @@
 // "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+
+html {
+  background: -webkit-linear-gradient(left,#ff3300,#ff9933); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right,#ff3300,#ff9933); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right,#ff3300,#ff9933); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right,#ff3300,#ff9933); /* Standard syntax */
+  height: 100%;
+}
+
+body {
+	background-color: rgba(255, 255, 255, 0)
+}
+
+.splash-page {
+	display: block;
+	padding-top: 15%;
+	margin-left: auto;
+	font-weight: 200;
+	margin-right: auto;
+	color: #fff;
+	text-align: center;
+}
+
+.splash-page h1 {
+		font-size: 5em;
+}
+
+.splash-page p {
+		font-size: 2em;
+		padding-top: 10px;
+		letter-spacing: 0.02em;
+		max-width: 600px;
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+		padding-bottom: 15px;
+
+}
+
+.navbar {
+	margin-bottom: 0px;
+	background-color: rgba(255, 255, 255, 0.1);
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-bottom: 1px solid white;
+}
+
+.navbar-default .navbar-brand {
+	color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #fff;
+}
