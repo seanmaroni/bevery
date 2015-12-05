@@ -57,6 +57,34 @@ body {
 
 }
 
+.center {
+	text-align: center;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.button {
+	border: solid 1px white;
+	padding: 10px;
+	border-radius: 2px;
+	font-size: 1.2em;
+	color: #fff;
+	display: block;
+	min-width: 110px;
+	text-align: center;
+}
+
+.button:hover {
+	text-decoration: none;
+	color: #fff;
+
+}
+
+input, button, select, textarea {
+	color: #666;
+}
+
 .navbar {
 	margin-bottom: 0px;
 	background-color: rgba(255, 255, 255, 0.1);

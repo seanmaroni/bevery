@@ -2,6 +2,10 @@ Rails.application.routes.draw do
  
 resources :articles do
   resources :comments
-end 
-  root 'welcome#index'
+end
+
+HighVoltage.configure do |config|
+  config.home_page = 'index'
+end
+
 end
